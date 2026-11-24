@@ -1,0 +1,54 @@
+Type	Source	Destination	Name	Covariate	EffectSize	Variance	Probability	PValue
+SelfConnection	laINS	laINS	laINS -> laINS	Covariate 1	0	1	0	1
+SelfConnection	lFEF	lFEF	lFEF -> lFEF	Covariate 1	0	1	0	1
+SelfConnection	lIFG	lIFG	lIFG -> lIFG	Covariate 1	0	1	0	1
+SelfConnection	lLAP	lLAP	lLAP -> lLAP	Covariate 1	0	1	0	1
+SelfConnection	lIPS	lIPS	lIPS -> lIPS	Covariate 1	0	1	0	1
+SelfConnection	lITL	lITL	lITL -> lITL	Covariate 1	0	1	0	1
+Connection	lIPS	lLAP	lIPS -> lLAP	Covariate 1	0	1	0	1
+Connection	lIPS	lFEF	lIPS -> lFEF	Covariate 1	0	1	0	1
+Connection	lLAP	lIPS	lLAP -> lIPS	Covariate 1	0	1	0	1
+Connection	lLAP	lIFG	lLAP -> lIFG	Covariate 1	0	1	0	1
+Connection	lITL	laINS	lITL -> laINS	Covariate 1	0	1	0	1
+Connection	lITL	lIFG	lITL -> lIFG	Covariate 1	0	1	0	1
+Connection	lFEF	lIPS	lFEF -> lIPS	Covariate 1	0	1	0	1
+Connection	lFEF	laINS	lFEF -> laINS	Covariate 1	0	1	0	1
+Connection	lFEF	lIFG	lFEF -> lIFG	Covariate 1	0	1	0	1
+Connection	lIFG	lITL	lIFG -> lITL	Covariate 1	0	1	0	1
+Connection	lIFG	lLAP	lIFG -> lLAP	Covariate 1	0	1	0	1
+Connection	lIFG	laINS	lIFG -> laINS	Covariate 1	0	1	0	1
+Connection	lIFG	lFEF	lIFG -> lFEF	Covariate 1	0	1	0	1
+Connection	laINS	lITL	laINS -> lITL	Covariate 1	0	1	0	1
+Connection	laINS	lFEF	laINS -> lFEF	Covariate 1	0	1	0	1
+Connection	laINS	lIFG	laINS -> lIFG	Covariate 1	0	1	0	1
+Effect	attention	lIPS	attention -> lIPS	Covariate 1	0.232813675292316	0.00249714234792712	0.999690097791294	3.17846465103244e-06
+Effect	attention	laINS	attention -> laINS	Covariate 1	1.94131812589914e-06	1.02239197331742e-08	0.0395875316420144	0.984682024356842
+Effect	semantic	lLAP	semantic -> lLAP	Covariate 1	0.180708209819908	0.00176198091974077	0.997219363258778	1.66954878513259e-05
+Effect	semantic	laINS	semantic -> laINS	Covariate 1	0.075491373646406	0.00414426371979415	0.664259933982153	0.240930526637006
+Effect	combo	lIPS	combo -> lIPS	Covariate 1	0.0940465492862769	0.00547383432488515	0.699432923372461	0.203675041433524
+Effect	combo	lLAP	combo -> lLAP	Covariate 1	1.2621200268904e-06	9.88850172238854e-09	0.240656327705318	0.989873396338722
+Effect	combo	laINS	combo -> laINS	Covariate 1	-7.21680906159235e-07	1.00559263956151e-08	0.184695582765072	0.994257903526991
+Modulation	attention	lIPS -> lFEF	attention -> (lIPS -> lFEF)	Covariate 1	0	1	0	1
+Modulation	attention	lFEF -> lIPS	attention -> (lFEF -> lIPS)	Covariate 1	0	1	0	1
+Modulation	semantic	lLAP -> lIFG	semantic -> (lLAP -> lIFG)	Covariate 1	0	1	0	1
+Modulation	semantic	lIFG -> lLAP	semantic -> (lIFG -> lLAP)	Covariate 1	0	1	0	1
+Modulation	semantic	lITL -> lIFG	semantic -> (lITL -> lIFG)	Covariate 1	0	1	0	1
+Modulation	semantic	lIFG -> lITL	semantic -> (lIFG -> lITL)	Covariate 1	0	1	0	1
+Modulation	semantic	lITL -> laINS	semantic -> (lITL -> laINS)	Covariate 1	0	1	0	1
+Modulation	semantic	laINS -> lITL	semantic -> (laINS -> lITL)	Covariate 1	0	1	0	1
+Modulation	semantic	lIFG -> laINS	semantic -> (lIFG -> laINS)	Covariate 1	0	1	0	1
+Modulation	semantic	laINS -> lIFG	semantic -> (laINS -> lIFG)	Covariate 1	0	1	0	1
+Modulation	combo	lIPS -> lFEF	combo -> (lIPS -> lFEF)	Covariate 1	0	1	0	1
+Modulation	combo	lFEF -> lIPS	combo -> (lFEF -> lIPS)	Covariate 1	0	1	0	1
+Modulation	combo	lLAP -> lIFG	combo -> (lLAP -> lIFG)	Covariate 1	0	1	0	1
+Modulation	combo	lIFG -> lLAP	combo -> (lIFG -> lLAP)	Covariate 1	0	1	0	1
+Modulation	combo	lITL -> lIFG	combo -> (lITL -> lIFG)	Covariate 1	0	1	0	1
+Modulation	combo	lIFG -> lITL	combo -> (lIFG -> lITL)	Covariate 1	0	1	0	1
+Modulation	combo	lITL -> laINS	combo -> (lITL -> laINS)	Covariate 1	0	1	0	1
+Modulation	combo	laINS -> lITL	combo -> (laINS -> lITL)	Covariate 1	0	1	0	1
+Modulation	combo	lIFG -> laINS	combo -> (lIFG -> laINS)	Covariate 1	0	1	0	1
+Modulation	combo	laINS -> lIFG	combo -> (laINS -> lIFG)	Covariate 1	0	1	0	1
+Modulation	combo	lFEF -> lIFG	combo -> (lFEF -> lIFG)	Covariate 1	0	1	0	1
+Modulation	combo	lIFG -> lFEF	combo -> (lIFG -> lFEF)	Covariate 1	0	1	0	1
+Modulation	combo	lIPS -> lLAP	combo -> (lIPS -> lLAP)	Covariate 1	0	1	0	1
+Modulation	combo	lLAP -> lIPS	combo -> (lLAP -> lIPS)	Covariate 1	0	1	0	1

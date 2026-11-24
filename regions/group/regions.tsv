@@ -1,0 +1,33 @@
+file	label_in_paper	main_effect	dcm_node
+space-fsLR_desc-lIFGSemantic_mask.dscalar.nii	left IFG	Semantic Memory	IFG
+space-fsLR_desc-laINSSemantic_mask.dscalar.nii	left aINS	Semantic Memory	aINS
+space-fsLR_desc-raINSSemantic_mask.dscalar.nii	right aINS	Semantic Memory	
+space-fsLR_desc-lpreSMASemantic_mask.dscalar.nii	left pre-SMA	Semantic Memory	
+space-fsLR_desc-rpreSMASemantic_mask.dscalar.nii	right pre-SMA	Semantic Memory	
+space-fsLR_desc-rIFSSemantic_mask.dscalar.nii	right IFS	Semantic Memory	
+space-fsLR_desc-lITLSemantic_mask.dscalar.nii	left ITL	Semantic Memory	ITL
+space-fsLR_desc-rITLSemantic_mask.dscalar.nii	right ITL	Semantic Memory	
+space-fsLR_desc-lSTSSemantic_mask.dscalar.nii	left pSTS	Semantic Memory	
+space-fsLR_desc-lLAPSemantic_mask.dscalar.nii	left LaP	Semantic Memory	LaP
+space-fsLR_desc-lCauSemantic_mask.dscalar.nii	left caudate	Semantic Memory	
+space-fsLR_desc-rCauSemantic_mask.dscalar.nii	right caudate	Semantic Memory	
+space-fsLR_desc-lThalSemantic_mask.dscalar.nii	left thalamus	Semantic Memory	
+space-fsLR_desc-lCerSemantic_mask.dscalar.nii	cerebellum, left Crus II	Semantic Memory	
+space-fsLR_desc-rCerSemantic_mask.dscalar.nii	cerebellum, right Crus II	Semantic Memory	
+space-fsLR_desc-lFEFAttention_mask.dscalar.nii	left FEF	Visuo-spatial Attention	FEF
+space-fsLR_desc-rFEFAttention_mask.dscalar.nii	right FEF	Visuo-spatial Attention	
+space-fsLR_desc-lIPSAttention_mask.dscalar.nii	left PEF	Visuo-spatial Attention	PEF
+space-fsLR_desc-rIPSAttention_mask.dscalar.nii	right PEF	Visuo-spatial Attention	
+space-fsLR_desc-lV3AAttention_mask.dscalar.nii	left V3A	Visuo-spatial Attention	
+space-fsLR_desc-rV3AAttention_mask.dscalar.nii	right V3A	Visuo-spatial Attention	
+space-fsLR_desc-lMTAttention_mask.dscalar.nii	left MT+	Visuo-spatial Attention	
+space-fsLR_desc-rMTAttention_mask.dscalar.nii	right MT+	Visuo-spatial Attention	
+space-fsLR_desc-lTOJAttention_mask.dscalar.nii	left LOC	Visuo-spatial Attention	
+space-fsLR_desc-lPMvAttention_mask.dscalar.nii	left PMv	Visuo-spatial Attention	
+space-fsLR_desc-rPMvAttention_mask.dscalar.nii	right PMv	Visuo-spatial Attention	
+space-fsLR_desc-lpreSMAAttention_mask.dscalar.nii	left pre-SMA	Visuo-spatial Attention	
+space-fsLR_desc-rpreSMAAttention_mask.dscalar.nii	right pre-SMA	Visuo-spatial Attention	
+space-fsLR_desc-raINSAttention_mask.dscalar.nii	right aINS	Visuo-spatial Attention	
+space-fsLR_desc-rMFGAttention_mask.dscalar.nii	right MFG	Visuo-spatial Attention	
+space-fsLR_desc-lCer1Attention_mask.dscalar.nii	cerebellum, left vermis VI	Visuo-spatial Attention	
+space-fsLR_desc-rCerAttention_mask.dscalar.nii	cerebellum, right lobule VI	Visuo-spatial Attention	

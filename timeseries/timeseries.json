@@ -1,0 +1,12 @@
+{
+ "RepetitionTime": 0.8,
+ "columns": {
+  "PEF": "lIPS",
+  "FEF": "lFEF",
+  "LaP": "lLAP",
+  "IFG": "lIFG",
+  "aINS": "laINS",
+  "ITL": "lITL"
+ },
+ "description": "First eigenvariate of each DCM node (unsmoothed data), after regressing out the effects of no interest (control blocks, reaction time regressor, nuisance regressors); the inputs give the onset and duration (s) of the blocks of the three conditions of interest, from the start of the concatenated runs."
+}

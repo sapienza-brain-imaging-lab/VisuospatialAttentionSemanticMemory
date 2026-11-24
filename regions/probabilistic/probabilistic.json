@@ -1,0 +1,47 @@
+{
+ "description": "Proportion of participants (out of 25) whose individual region includes each vertex of the left hemisphere (fsLR 32k); participants without an individual region (for whom the group-level region was used in the DCM) count as not including it.",
+ "nodes": {
+  "PEF": {
+   "region": "lIPSAttention",
+   "participants": 25,
+   "individual_regions": 21,
+   "max_probability": 0.52,
+   "vertices_in_half_or_more": 1
+  },
+  "FEF": {
+   "region": "lFEFAttention",
+   "participants": 25,
+   "individual_regions": 15,
+   "max_probability": 0.52,
+   "vertices_in_half_or_more": 1
+  },
+  "LaP": {
+   "region": "lLAPSemantic",
+   "participants": 25,
+   "individual_regions": 25,
+   "max_probability": 0.68,
+   "vertices_in_half_or_more": 93
+  },
+  "IFG": {
+   "region": "lIFGSemantic",
+   "participants": 25,
+   "individual_regions": 25,
+   "max_probability": 0.96,
+   "vertices_in_half_or_more": 190
+  },
+  "aINS": {
+   "region": "laINSSemantic",
+   "participants": 25,
+   "individual_regions": 22,
+   "max_probability": 0.84,
+   "vertices_in_half_or_more": 65
+  },
+  "ITL": {
+   "region": "lITLSemantic",
+   "participants": 25,
+   "individual_regions": 21,
+   "max_probability": 0.56,
+   "vertices_in_half_or_more": 4
+  }
+ }
+}

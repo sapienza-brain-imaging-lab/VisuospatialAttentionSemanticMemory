@@ -1,0 +1,54 @@
+Type	Source	Destination	Name	Covariate	EffectSize	Variance	Probability	PValue
+SelfConnection	laINS	laINS	laINS -> laINS	Covariate 1	-0.563961598162675	0.00186431194313029	1	0
+SelfConnection	lFEF	lFEF	lFEF -> lFEF	Covariate 1	5.78177911727459e-07	9.83099959071131e-09	0	0.995347351351361
+SelfConnection	lIFG	lIFG	lIFG -> lIFG	Covariate 1	-0.411587116458052	0.00186114644201459	1	0
+SelfConnection	lLAP	lLAP	lLAP -> lLAP	Covariate 1	-0.181485999099408	0.00109799860594914	0.999999016494131	4.32612894396556e-08
+SelfConnection	lIPS	lIPS	lIPS -> lIPS	Covariate 1	-5.79733113212927e-07	9.87300777052211e-09	0	0.995344771905193
+SelfConnection	lITL	lITL	lITL -> lITL	Covariate 1	-0.445172480504239	0.00131004574138275	1	0
+Connection	lIPS	lLAP	lIPS -> lLAP	Covariate 1	0.124034773468114	0.00072950665197029	0.999902107657641	4.38419154225045e-06
+Connection	lIPS	lFEF	lIPS -> lFEF	Covariate 1	9.07134669427307e-07	1.00658835329259e-08	0	0.992785936528595
+Connection	lLAP	lIPS	lLAP -> lIPS	Covariate 1	0.24219587355374	0.000914637859183497	1	1.11022302462516e-15
+Connection	lLAP	lIFG	lLAP -> lIFG	Covariate 1	-0.066460972680299	0.000710418796313328	0.948878218654036	0.0126490382322522
+Connection	lITL	laINS	lITL -> laINS	Covariate 1	-0.133967383956606	0.000610000122730281	0.999998571874195	5.82210981647791e-08
+Connection	lITL	lIFG	lITL -> lIFG	Covariate 1	-3.10736677833931e-07	1.01384281215284e-08	0	0.997537668181342
+Connection	lFEF	lIPS	lFEF -> lIPS	Covariate 1	-0.0639102549956013	0.00162212195943146	0.836292965774684	0.112552479967383
+Connection	lFEF	laINS	lFEF -> laINS	Covariate 1	6.74601573923149e-07	9.82958822613884e-09	0	0.994571043048865
+Connection	lFEF	lIFG	lFEF -> lIFG	Covariate 1	-0.0697687296073875	0.000244843476390407	0.99965732770819	8.24254875020358e-06
+Connection	lIFG	lITL	lIFG -> lITL	Covariate 1	0.146561372214323	0.000427011540307207	1	1.31716859641529e-12
+Connection	lIFG	lLAP	lIFG -> lLAP	Covariate 1	0.394370219306942	0.000567060529107506	1	0
+Connection	lIFG	laINS	lIFG -> laINS	Covariate 1	5.96576386868851e-07	9.89082117824087e-09	0	0.995213838583157
+Connection	lIFG	lFEF	lIFG -> lFEF	Covariate 1	0.201510145861991	0.000718605229357614	1	5.59552404411079e-14
+Connection	laINS	lITL	laINS -> lITL	Covariate 1	0.0867880995470116	0.000463732338258797	0.998413534152494	5.57296597873957e-05
+Connection	laINS	lFEF	laINS -> lFEF	Covariate 1	0.237376191703504	0.00150656858947161	0.999999976075648	9.61634771812214e-10
+Connection	laINS	lIFG	laINS -> lIFG	Covariate 1	0.294478028665876	0.000931248379584859	1	0
+Effect	attention	lIPS	attention -> lIPS	Covariate 1	0	1	0	1
+Effect	attention	laINS	attention -> laINS	Covariate 1	0	1	0	1
+Effect	semantic	lLAP	semantic -> lLAP	Covariate 1	0	1	0	1
+Effect	semantic	laINS	semantic -> laINS	Covariate 1	0	1	0	1
+Effect	combo	lIPS	combo -> lIPS	Covariate 1	0	1	0	1
+Effect	combo	lLAP	combo -> lLAP	Covariate 1	0	1	0	1
+Effect	combo	laINS	combo -> laINS	Covariate 1	0	1	0	1
+Modulation	attention	lIPS -> lFEF	attention -> (lIPS -> lFEF)	Covariate 1	0	1	0	1
+Modulation	attention	lFEF -> lIPS	attention -> (lFEF -> lIPS)	Covariate 1	0	1	0	1
+Modulation	semantic	lLAP -> lIFG	semantic -> (lLAP -> lIFG)	Covariate 1	0	1	0	1
+Modulation	semantic	lIFG -> lLAP	semantic -> (lIFG -> lLAP)	Covariate 1	0	1	0	1
+Modulation	semantic	lITL -> lIFG	semantic -> (lITL -> lIFG)	Covariate 1	0	1	0	1
+Modulation	semantic	lIFG -> lITL	semantic -> (lIFG -> lITL)	Covariate 1	0	1	0	1
+Modulation	semantic	lITL -> laINS	semantic -> (lITL -> laINS)	Covariate 1	0	1	0	1
+Modulation	semantic	laINS -> lITL	semantic -> (laINS -> lITL)	Covariate 1	0	1	0	1
+Modulation	semantic	lIFG -> laINS	semantic -> (lIFG -> laINS)	Covariate 1	0	1	0	1
+Modulation	semantic	laINS -> lIFG	semantic -> (laINS -> lIFG)	Covariate 1	0	1	0	1
+Modulation	combo	lIPS -> lFEF	combo -> (lIPS -> lFEF)	Covariate 1	0	1	0	1
+Modulation	combo	lFEF -> lIPS	combo -> (lFEF -> lIPS)	Covariate 1	0	1	0	1
+Modulation	combo	lLAP -> lIFG	combo -> (lLAP -> lIFG)	Covariate 1	0	1	0	1
+Modulation	combo	lIFG -> lLAP	combo -> (lIFG -> lLAP)	Covariate 1	0	1	0	1
+Modulation	combo	lITL -> lIFG	combo -> (lITL -> lIFG)	Covariate 1	0	1	0	1
+Modulation	combo	lIFG -> lITL	combo -> (lIFG -> lITL)	Covariate 1	0	1	0	1
+Modulation	combo	lITL -> laINS	combo -> (lITL -> laINS)	Covariate 1	0	1	0	1
+Modulation	combo	laINS -> lITL	combo -> (laINS -> lITL)	Covariate 1	0	1	0	1
+Modulation	combo	lIFG -> laINS	combo -> (lIFG -> laINS)	Covariate 1	0	1	0	1
+Modulation	combo	laINS -> lIFG	combo -> (laINS -> lIFG)	Covariate 1	0	1	0	1
+Modulation	combo	lFEF -> lIFG	combo -> (lFEF -> lIFG)	Covariate 1	0	1	0	1
+Modulation	combo	lIFG -> lFEF	combo -> (lIFG -> lFEF)	Covariate 1	0	1	0	1
+Modulation	combo	lIPS -> lLAP	combo -> (lIPS -> lLAP)	Covariate 1	0	1	0	1
+Modulation	combo	lLAP -> lIPS	combo -> (lLAP -> lIPS)	Covariate 1	0	1	0	1
