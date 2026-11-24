@@ -49,8 +49,7 @@ regressor, nuisance regressors), and the onsets and durations (s) of the blocks 
 
 ## Software
 
-fMRIPrep and XCP-D for preprocessing; GLM and DCM estimation with SPM25 (r25.01.02) through the MATLAB toolboxes of the
-Sapienza Brain Imaging Lab (https://github.com/sapienza-brain-imaging-lab/matlab-bil-toolboxes).
+fMRIPrep and XCP-D for preprocessing; GLM and DCM estimation with SPM25 (r25.01.02).
 
 ## Raw data
 
