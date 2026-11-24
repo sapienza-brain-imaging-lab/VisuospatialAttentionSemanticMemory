@@ -56,3 +56,8 @@ Sapienza Brain Imaging Lab (https://github.com/sapienza-brain-imaging-lab/matlab
 
 Raw and preprocessed image data are available upon request to the corresponding author (michelangelo.tani@uniroma1.it),
 subject to a formal data-sharing agreement and to the approval of the requesting researcher's local ethics committee.
+
+## License
+
+The content of this repository is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0
+International License (CC BY-NC-ND 4.0; see `LICENSE`). Please cite the paper when using these data.
